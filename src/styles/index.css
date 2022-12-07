@@ -1,12 +1,74 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    background-color: rgb(254, 250, 224);
+}
+.title{
+    /* Text */
+    font-size: 500%;
+    font-weight: 100;
+    color:rgb(212, 163, 115);
+}
+input{
+    /* Measures */
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    /* Text */
+    font-size: large;
+    color:rgb(212, 163, 115);
+    /* Style */
+    background-color: rgb(250, 237, 205);
+    border: 0;
+    border-bottom: 1px solid rgb(212, 163, 115);
+    border-top: 1px solid rgb(212, 163, 115);
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+textarea:focus{
+    outline: none;
+}
+form:focus {
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+.list{
+    /* Measures */
+    margin: auto;
+    width: 50%;
+    /* Style */
+    background-color: rgb(250, 237, 205);
+    border: 1px solid rgb(212, 163, 115);
+    border-top: 0;
+}
+.item{
+    /* Measures */
+    margin-bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+.bottom{
+    /* Measures */
+    width: 100%;
+    height: 40px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    /* Text */
+    text-align: start;
+    line-height: 40px; 
+    color:rgb(212, 163, 115);
+}
+.itemContainer{
+    /* Measures */
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+     /* Text */
+     text-align: start;
+     font-size: large;   
+     color:rgb(212, 163, 115);
+     line-height: 35px;
+     /* Style */
+     border-bottom: 1px solid rgb(212, 163, 115);
+}
